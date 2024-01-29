@@ -1,84 +1,43 @@
 ---
-title: "Homework #4"
-output: html_notebook
+title: "HW 04 - Final project proposal"
+date: "Due: Nov 28 at midnight"
+output: 
+  html_document: 
+    theme: yeti
+    toc: true
+    toc_float: true
 ---
 
-```{r setup}
-if (!requireNamespace("fivethirtyeight", quietly = TRUE)) {
-  install.packages("fivethirtyeight")
-}
-if (!requireNamespace("tidyverse", quietly = TRUE)) {
-  install.packages("tidyverse")
-}
-library(fivethirtyeight)
-library(tidyverse)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
+This is a draft of the introduction section of your project as well as a 
+data analysis plan and your dataset.
 
-## Data
+- Introduction: The introduction should introduce your general research 
+question (this should include your hypothesized answer) and your data 
+(where it came from, how it was collected, what are the cases, what are the 
+variables, etc.).
 
-In the `fivethiryeight` package there are two datasets containing birth data. We will use `US_births_1994_2003`.  Note that since we have data from 1994-2003, our results may differ somewhat from the figure based on 1994-2014.
+- Data analysis plan: The data analysis plan should include:
 
-```{r}
-US_births_1994_2003
-```
+1. The comparison groups you will use, if applicable.
+2. The outcome (dependent, response, Y) and predictor (independent, explanatory, X) variables you will use to answer your question.
+3. The statistical method(s) that you believe will be useful in answering your question(s). (You can update these later as you work on your project.)
+4. What results from these specific statistical methods are needed to support your hypothesized answer?
 
-Number of births over time.
-```{r}
-ggplot(US_births_1994_2003, aes(x = date, y = births)) +
-  geom_line()
-```
-**1. There is too much fluctuation to see what is going on. Your task is to 
-recreate this image using only data from 1995. In the code chunk below, complete 
-the code to recreate the previous plot using only data from 1995.**
+- Data: Print out your entire dataset, or a representative subset of it. Use a scrollable 
+table if this is long. 
 
-```{r}
-US_births_1994_2003 %>%
-  filter(year == 1995) %>%
-  ggplot(mapping = aes(x = date, y = births))
-```
+Each section should be no more than 1 page (excluding figures). You can check a print preview
+to confirm length. Your write up and all typesetting must be done with using R Markdown.
 
-**2. Filter observations that occur on the 5th, 12th, or 19th of each month.**
+### Grading
 
-```{r}
-US_births_1994_2003 %>%
-  filter()
-```
-
-**3. Select only the "day_of_week" and "births" variables and filter only the observations that occur on Monday or Friday.**
-
-```{r}
-US_births_1994_2003 %>%
-  select() %>% 
-  filter()
-```
-
-For the remaining prompts, use the pipe function `%>%` to string together each 
-step described below:
-
-**4. Use `mutate()` to add a variable `births2`, which should be equal to one-tenth the number of births**.
-
-**5. Use `group_by()` to group the observations by day of the week**.
-
-**6. Use `summarize()` to estimate the mean and sum of `births2` for each day of the week**.
-
-**7. Use `mutate()` to calculate (a) the total number of `births2` and then (b) the proportion of all `births2` for each day of the week.**
-
-**8. Use `ggplot()` to create a bar plot depicting the proportions calculated in the previous step. Fill the non-weekend (Monday-Friday) bars in one color and the weekend bars in a different color.**
-
-
-```{r}
-## mutate and create new object to use in future questions
-US_births_1994_2003 %>%
-  mutate() %>%
-  group_by() %>%
-  summarize() %>%
-  mutate() %>%
-  ggplot(aes(x = day_of_week, y = prop)) + 
-  geom_col(aes(fill = day_of_week %in% c("Sat", "Sun")))
-```
-
-
-The final plot should look something like this:
-
-<p style="align:center"> <img src="hw4-answer.png" </img></p>
+Total                                                   | 50 pts
+--------------------------------------------------------|--------
+Introduction                                            | 20 pts
+Data analysis plan                                      | 15 pts
+Data                                                    | 10 pts
+Organization and code quality                           | 5 pts

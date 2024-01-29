@@ -1,24 +1,15 @@
+# sta112fs-f17
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+Source code for course website for STA 112FS at Duke University, Fall 2017.
 
-# stat.mikewk.com <img src="static/favicon.png" width="180px" align="right" />
+Course website is at http://www2.stat.duke.edu/courses/Fall17/sta112.01/.
 
-> Course website for **A7214: Advanced Quantitative Research
-> Methods**, a Fall 2018 graduate course in the School of Journalism at
-> the University of Missouri
+# Attribution
 
-The live course website can be found at
-[stat.mikewk.com](https://stat.mikewk.com). For the source code used to
-make the site, see
-[github.com/mkearney/stat](https://github.com/mkearney/stat/).
+- This website design is based on [ESPM-157 by Carl Boettinger](https://espm-157.carlboettiger.info/).
+- Background image is [here](https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAkrAAAAJDI5MmUxNzNiLWNmYjAtNDFiOC04YWRiLTQ2YjhiZGExNzY0Mw.jpg).
 
-## Attribution
+# Notes for building the website:
 
-This website design was forked from [Sta112-F17 by Mine
-Cetinkaya-Rundel](https://github.com/Sta112-F17/website/commits?author=mine-cetinkaya-rundel),
-which is based on [ESPM-157 by Carl
-Boettinger](https://espm-157.carlboettiger.info/).
-
-Background image created by [Muge
-Cetinkaya](https://dribbble.com/muuuuge). See the original image
-[here](http://www2.stat.duke.edu/courses/Spring18/Sta199/img/mugesketch.png).
+- Colors: Pantone Fall 2017 - Marina - #5388CD
+  - To change, search & replace in `themes/material/static/css/material-kit.css`
