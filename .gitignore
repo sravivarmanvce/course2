@@ -1,6 +1,8 @@
-_site
-.sass-cache
-.jekyll-metadata
-*.DS_Store
-Gemfile.lock
-.jekyll-cache
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+gss2010.csv
+*.Key
+.httr-oauth
