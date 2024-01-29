@@ -5,3 +5,4 @@
 .DS_Store
 gss2010.csv
 *.Key
+.httr-oauth

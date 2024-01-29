@@ -2,25 +2,30 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<link rel="icon" sizes="76x76" href="../img/favicon.png">
-	<link rel="icon" type="image/png" href="../img/favicon.png">
+	
+  <link rel="shortcut icon" href="../favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="../favicon-152.png">
+
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>STA 112FS</title>
+	<title>JOURN 8016</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
 	
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">	
   <link rel="stylesheet" href="https://cdn.rawgit.com/gaborcsardi/r-font/master/rlogo.css">
   <link rel="stylesheet" href="https://cdn.rawgit.com/wesbos/Font-Awesome-Docker-Icon/master/fontcustom/fontcustom.css">
 
 	
     <link href="../css/bootstrap.min.css" rel="stylesheet" />
     <link href="../css/material-kit.css" rel="stylesheet"/>
+    <link href="../css/custom.css" rel="stylesheet"/>
 </head>
+
 
   
 <body class="profile-page">
@@ -34,7 +39,7 @@
 		            <span class="icon-bar"></span>
 		            <span class="icon-bar"></span>
         		</button>
-        		<a class="navbar-brand" href="../">STA 112FS</a>
+        		<a class="navbar-brand" href="../"><img src="../favicon.png" style="margin-top:-.5em" width="42px" /></a>
         	</div>
 
         	<div class="collapse navbar-collapse" id="navigation-example">
@@ -44,7 +49,7 @@
 
         <li class="nav-item">
           <a href="../">
-            <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+            <i class="fas fa-home fa-lg"></i>
             <span>Home</span>
           </a>
         </li>
@@ -53,18 +58,8 @@
         
 
         <li class="nav-item">
-          <a href="../tools">
-            <i class="material-icons">build</i>
-            <span>Tools</span>
-          </a>
-        </li>
-        
-      
-        
-
-        <li class="nav-item">
           <a href="../syllabus">
-            <i class="material-icons">date_range</i>
+            <i class="fas fa-file-alt fa-lg"></i>
             <span>Syllabus</span>
           </a>
         </li>
@@ -73,9 +68,19 @@
         
 
         <li class="nav-item">
-          <a href="../policies">
-            <i class="material-icons">gavel</i>
-            <span>Policies</span>
+          <a href="../schedule">
+            <i class="fas fa-calendar-alt fa-lg"></i>
+            <span>Schedule</span>
+          </a>
+        </li>
+        
+      
+        
+
+        <li class="nav-item">
+          <a href="../reading">
+            <i class="fas fa-book-open fa-lg"></i>
+            <span>Readings</span>
           </a>
         </li>
         
@@ -85,981 +90,125 @@
     	</div>
     </nav>
   <div class="wrapper">
-    <div class="header header-filter" style="background-image: url('http://www2.stat.duke.edu/courses/Fall17/sta112.01/img/mugesketch.png');">
+    <div class="header header-filter" style="background-image: url('/img/bg2.png');">
     </div>
 		<div class="main main-raised">
 			<div class="container">
 		  	<div class="section text-left">
-		  	  <h2 class="title"></h2>
-	            <b>Note:</b> Due dates of bigger assignments and exams will not move, however the timeline of topics might be updated throughout the semester.
-
-<br><br>
+		  	  <h2 class="title">Syllabus</h2>
+	            <h3 id="course-info">Course</h3>
 
 <table class="table" style="max-width:900px;margin-left:auto;margin-right:auto">
   <tr>
-    <th style="width:15%;text-align:right">Date</th>
-    <th style="width:55%">Lesson</th>
-    <th style="width:7.5%;text-align:center">Reading</th>
-    <th style="width:7.5%;text-align:center">Assignment</th>
-    <th style="width:7.5%;text-align:center">Slides</th>
-    <th style="width:7.5%;text-align:center">Exam</th>
+    <td style="width:30%">JOURN 8016: Adv Quant</td>
+    <td style="width:20%;text-align:center;">
+      <a href="https://stat.mikewk.com" title="site"><i class="fas fa-link"></i></a> 
+      <a href="https://github.com/mkearney/stat" title="Github"><i class="fab fa-github"></i></a> 
+      <a href="https://journalism.missouri.edu"><i class="fas fa-university"></i></a>
+    </td>
+    <td style="width:25%;text-align:center;">Tue 3:30 - 6:00pm</td>
+    <td style="width:25%;text-align:right;">Lee Hills Hall 214</td>
+  </tr>
+</table>
+
+<h3 id="instructor">Instructor</h3>
+
+<table class="table" style="max-width:900px;margin-left:auto;margin-right:auto">
+  <tr>
+    <td style="width:30%">Dr. Michael W. Kearney</td>
+    <td style="width:20%;text-align:center;">
+      <a href="mailto:kearneymw@missouri.edu" title="email"><i class="fas fa-envelope"></i></a>
+      <a href="https://mikewk.com" title="homepage"><i class="fas fa-home"></i></a>
+      <a href="https://github.com/mkearney" title="Github"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com/kearneymw" title="Twitter"><i class="fab fa-twitter"></i></a>
+    </td>
+    <td style="width:25%;text-align:center;">Thu 11am - 2:00pm</td>
+    <td style="width:25%;text-align:right;">Lee Hills Hall 314</td>
+  </tr>
+</table>
+
+<h3 id="texts">Texts</h3>
+
+<table class="table" style="max-width:900px;margin-left:auto;margin-right:auto">
+  <tr>
+    <td style="width:30%">R for Data Science</td>
+    <td style="width:20%;text-align:center;">
+      <a href="http://r4ds.had.co.nz/" title="link"><i class="fas fa-link"></i></a>
+      <a href="https://github.com/hadley/r4ds" title="Github"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com/R4DScommunity" title="Twitter"><i class="fab fa-twitter"></i></a>
+    </td>
+    <td style="width:25%;text-align:center;">O'Reilly Media</td>
+    <td style="width:25%;text-align:right;">Wickham & Grolemund</td>
+  </tr>
+  <tr>
+    <td style="width:30%">Applied Regression Analysis & Generalized Linear Models (3rd ed.)</td>
+    <td style="width:20%;text-align:center;">
+      <a href="https://socialsciences.mcmaster.ca/jfox/Books/Applied-Regression-3E/index.html" title="link"><i class="fas fa-link"></i></a>
+      <a href="https://us.sagepub.com/en-us/nam/applied-regression-analysis-and-generalized-linear-models/book237254" title="Github"><i class="fas fa-store"></i></a>
+    </td>
+    <td style="width:25%;text-align:center;">CRC Press</td>
+    <td style="width:25%;text-align:right;">Hadley Wickham</td>
   </tr>
 
-  
-    
-    <tr>
-      <td align="right">PART 1:</td>
-      <td>Visualizing data</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
+</table>
 
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-file-image-o  fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Tue, Aug 29</td>
-      <td>Welcome to Data Science</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
+<h3 id="course-description">Course description</h3>
 
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-      <td align="center"><a href="../slides/01-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Thur, Aug 31</td>
-      <td>Introduction to R/RStudio &#43; git/GitHub</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
+<p>This course provides an introduction to statistical methods used in journalism/media-related social science research–analytical techniques include simple group comparisons, correlations, factor analysis, and linear models–and previews of several advanced statistical models and tools from data science. An introduction to R, an open source [and free] statistical computing environment used in the examples and assignments in this course, will also be provided.</p>
 
-      
-      <td align="center"><a href="../assignment/01-mini-hw.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../slides/02-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Tue, Sept 5</td>
-      <td>Fundamentals of data &amp; data visualization</td>
-      
-      
-      <td align="center"><a href="../reading/01-reading.html">
-          <i class="fa fa-book fa-lg"></i></a></td>
-      
+<h3>Grades</h3>
 
-      
-      <td align="center"><a href="../assignment/02-mini-hw.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../slides/03-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Thur, Sept 7</td>
-      <td>Visualizing spatial data, and more</td>
-      
-      
-      <td align="center"><a href="../reading/02-reading.html">
-          <i class="fa fa-book fa-lg"></i></a></td>
-      
+<table class="table" style="max-width:900px;margin-left:auto;margin-right:auto">
 
-      
-      <td align="center"><a href="../assignment/03-mini-hw.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../slides/04-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Tue, Sept 12</td>
-      <td>Data Visualization and Exploration, Pt 1</td>
-      
-      
-      <td align="center"><a href="../reading/03-reading.html">
-          <i class="fa fa-book fa-lg"></i></a></td>
-      
+<tr>
+<td style="width:15%;text-align:right">20%</td>
+<td>Participation</td>
+</tr>
 
-      
-      <td align="center"><a href="../assignment/04-mini-hw.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../slides/STA112FS_VisDayOneSlides_Fall2017.pdf">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Thur, Sept 14</td>
-      <td>Data Visualization and Exploration, Pt 2</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
+<tr>
+<td style="width:15%;text-align:right">30%</td>
+<td>Homework</td>
+</tr>
 
-      
-      <td align="center"><a href="../assignment/05-mini-hw.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../slides/STA112FS_VisDayTwoSlides_Fall2017.pdf">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right"></td>
-      <td>Resolving merge conflicts</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
+<tr>
+<td style="width:15%;text-align:right">25%</td>
+<td>Exam 1</td>
+</tr>
 
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-      <td align="center"><a href="../slides/05-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Tue, Sept 19</td>
-      <td>Confounding variables and Simpson&#39;s paradox</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
+<tr>
+<td style="width:15%;text-align:right">25%</td>
+<td>Exam 2</td>
+</tr>
 
-      
-      <td align="center"><a href="../assignment/01-hw.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../slides/06-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Thur, Sept 21</td>
-      <td>Case studies: SAT scores and smoking</td>
-      
-      
-      <td align="center"><a href="../reading/04-reading.html">
-          <i class="fa fa-book fa-lg"></i></a></td>
-      
-
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-      <td align="center"><a href="../slides/07-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">PART 2:</td>
-      <td>Wrangling data</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-file-image-o  fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Tue, Sept 26</td>
-      <td>Tidy data &#43; data wrangling</td>
-      
-      
-      <td align="center"><a href="../reading/05-reading.html">
-          <i class="fa fa-book fa-lg"></i></a></td>
-      
-
-      
-      <td align="center"><a href="../assignment/06-mini-hw.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../slides/08-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Thur, Sept 28</td>
-      <td>Types of variables</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-      <td align="center"><a href="../assignment/07-mini-hw.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../slides/09-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Tue, Oct 3</td>
-      <td>Recoding variables and transformations</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-      <td align="center"><a href="../slides/10-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../exam/">
-          <i class="fa fa-check-circle fa-lg"></i></a></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">PART 3:</td>
-      <td>Making rigorous conclusions</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-file-image-o  fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Thur, Oct 5</td>
-      <td>The language of models</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-      <td align="center"><a href="../slides/11-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Tue, Oct 10</td>
-      <td>No class: Fall break</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-file-image-o  fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Thur, Oct 12</td>
-      <td>Formalizing linear models</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-      <td align="center"><a href="../assignment/08-mini-hw.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../slides/12-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Tue, Oct 17</td>
-      <td>Multiple linear regression</td>
-      
-      
-      <td align="center"><a href="../reading/06-reading.html">
-          <i class="fa fa-book fa-lg"></i></a></td>
-      
-
-      
-      <td align="center"><a href="../assignment/09-mini-hw.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../slides/13-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Thur, Oct 19</td>
-      <td>Model selection</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-      <td align="center"><a href="../slides/14-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right"></td>
-      <td>Case study: Model selection for Paris Paintings</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-      <td align="center"><a href="../assignment/01-case-study.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-file-image-o  fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Tue, Oct 24</td>
-      <td>Prediction and model validation</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-      <td align="center"><a href="../assignment/02-hw.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../slides/15-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right"></td>
-      <td>Case study: Model validation for course evals</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-      <td align="center"><a href="../assignment/02-case-study.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-file-image-o  fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Thur, Oct 26</td>
-      <td>Estimation via bootstrapping</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-      <td align="center"><a href="../slides/16-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Tue, Oct 31</td>
-      <td>Hypothesis testing via simulation methods</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-      <td align="center"><a href="../assignment/10-mini-hw.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../slides/17-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Thur, Nov 2</td>
-      <td>More simulation based inference</td>
-      
-      
-      <td align="center"><a href="../reading/07-reading.html">
-          <i class="fa fa-book fa-lg"></i></a></td>
-      
-
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-file-image-o  fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Tue, Nov 7</td>
-      <td>Inference overview</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-      <td align="center"><a href="../slides/18-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../exam/">
-          <i class="fa fa-check-circle fa-lg"></i></a></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Thur, Nov 9</td>
-      <td>Inference for regression and Central Limit Theorem</td>
-      
-      
-      <td align="center"><a href="../reading/08-reading.html">
-          <i class="fa fa-book fa-lg"></i></a></td>
-      
-
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-      <td align="center"><a href="../slides/19-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Tue, Nov 14</td>
-      <td>CLT based inference</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-      <td align="center"><a href="../assignment/03-hw.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../slides/20-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right"></td>
-      <td>Case study: Inferring from the General Social Survey</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-      <td align="center"><a href="../assignment/04-case-study.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-file-image-o  fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">PART 4</td>
-      <td>Looking forward</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-file-image-o  fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Thur, Nov 16</td>
-      <td>Web scraping</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-      <td align="center"><a href="../assignment/11-mini-hw.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../slides/21-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Tue, Nov 21</td>
-      <td>Functions and automation</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-      <td align="center"><a href="../assignment/12-mini-hw.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../slides/22-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Thur, Nov 23</td>
-      <td>No class: Thanksgiving</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-file-image-o  fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Tue, Nov 28</td>
-      <td>Interactive visualizations with Shiny, Pt 1</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-      <td align="center"><a href="../assignment/04-hw.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-      <td align="center"><a href="../slides/23-deck.pdf">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Thur, Nov 30</td>
-      <td>Interactive visualizations with Shiny, Pt 2</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-      <td align="center"><a href="../assignment/07-case-study.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-file-image-o  fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Tue, Dec 5</td>
-      <td>Bayesian inference</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-keyboard-o fa-lg"></i></font></td>
-      
-      
-      
-      <td align="center"><a href="../slides/24-deck.html">
-          <i class="fa fa-file-image-o  fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-    <tr>
-      <td align="right">Thur, Dec 7</td>
-      <td>Final project presentations</td>
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-book fa-lg"></i></font></td>
-      
-
-      
-      <td align="center"><a href="../assignment/final-project.html">
-          <i class="fa fa-keyboard-o fa-lg"></i></a></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-file-image-o  fa-lg"></i></font></td>
-      
-      
-      
-        <td align="center"><font color="f1f1f1">
-          <i class="fa fa-check-circle fa-lg"></i></font></td>
-      
-    </tr>
-    
-  
 
 </table>
+
+<h3 id="assignments">Assignments</h3>
+
+<ul>
+<li>Late work policy for homework assignments:
+
+<ul>
+<li>late, but within 24 hours of due date/time: -20%</li>
+<li>any later: no credit</li>
+</ul></li>
+</ul>
+
+<h3 id="exams">Exams</h3>
+
+<p>There will be a two take-home [or non-timed online] exams that you are expected to complete individually. Each exam will ask you to complete a number of statistical and/or analytical tasks related to the material presented in the class. The exams will be written to take between 2-5 hours. The exact structure and content of the exams will be discussed in more detail before they are assigned.</p>
+
+<h3 id="excused-absences">Excused absences</h3>
+
+<p>Students who miss a class due to a school-related event, religious holiday, or short-term illness should notify me one-week prior (or, in the case of illness, as soon as possible). Note that these excused absences do not excuse you from assigned homework. It is your responsibility to make alternative arrangements to turn in any assignments in a timely fashion. Those with a personal emergency or bereavement should speak with your director of graduate studies or your academic dean.</p>
+
+<h3 id="academic-integrity">Academic integrity</h3>
+
+<p>Academic integrity is fundamental to the activities and principles of a university. All members of the academic community must be confident that each person's work has been responsibly and honorably acquired, developed, and presented. Any effort to gain an advantage not given to all students is dishonest whether or not the effort is successful. The academic community regards breaches of the academic integrity rules as extremely serious matters. Sanctions for such a breach may include academic sanctions from the instructor, including failing the course for any violation, to disciplinary sanctions ranging from probation to expulsion. When in doubt about plagiarism, paraphrasing, quoting, collaboration, or any other form of cheating, consult the course instructor.</p>
+
+<h3 id="software">Software</h3>
+
+<p>The statistical software we will learn and use in this class is <a href="https://cran.r-project.org/">R</a>, an open-source statistical computing environment. We will interface with R using <a href="https://www.rstudio.com/">Rstudio</a>, a fully featured interactive development environment (IDE) designed specifically for working in the R environment. <a href="../install-rstats">Click here for instructions on how to install R and Rstudio</a>.</p>
 
 	      </div>
       </div>
@@ -1072,28 +221,21 @@
         
 
         <li>
-          <a href="http://stat.duke.edu/"><i class="button-icon fa fa-2x fa-map-marker"></i> Duke StatSci</a>
+          <a href="https://journalism.missouri.edu"><i class="button-icon fas fa-university fa-2x"></i> School of Journalism</a>
         </li>
         
       
         
 
         <li>
-          <a href="https://vm-manage.oit.duke.edu/"><i class="icon-rlogo" style="font-size:150%"></i> R/RStudio</a>
+          <a href="../install-rstats"><i class="icon-rlogo" style="font-size:150%"></i> R/RStudio</a>
         </li>
         
       
         
 
         <li>
-          <a href="https://github.com/Sta112-F17/"><i class="button-icon fa fa-2x fa-github"></i> GitHub</a>
-        </li>
-        
-      
-        
-
-        <li>
-          <a href="https://sta112f17.slack.com/messages"><i class="button-icon fa fa-2x fa-slack"></i> Slack</a>
+          <a href="https://github.com/mkearney/stat/"><i class="button-icon fab fa-github fa-2x"></i> GitHub</a>
         </li>
         
       

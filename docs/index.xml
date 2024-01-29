@@ -1,42 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>STA 112FS: Data Science on STA 112FS</title>
+    <title>JOURN 8016: Adv Quant on JOURN 8016</title>
     <link>/</link>
-    <description>Recent content in STA 112FS: Data Science on STA 112FS</description>
+    <description>Recent content in JOURN 8016: Adv Quant on JOURN 8016</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 19 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <language>en-US</language>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>/syllabus/</link>
-      <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/syllabus/</guid>
-      <description>Note: Due dates of bigger assignments and exams will not move, however the timeline of topics might be updated throughout the semester.  Date Lesson Reading Assignment Slides Exam   PART 1: Visualizing data       Tue, Aug 29 Welcome to Data Science       Thur, Aug 31 Introduction to R/RStudio &amp;#43; git/GitHub       Tue, Sept 5 Fundamentals of data &amp;amp; data visualization       Thur, Sept 7 Visualizing spatial data, and more       Tue, Sept 12 Data Visualization and Exploration, Pt 1       Thur, Sept 14 Data Visualization and Exploration, Pt 2        Resolving merge conflicts       Tue, Sept 19 Confounding variables and Simpson&amp;#39;s paradox       Thur, Sept 21 Case studies: SAT scores and smoking       PART 2: Wrangling data       Tue, Sept 26 Tidy data &amp;#43; data wrangling       Thur, Sept 28 Types of variables       Tue, Oct 3 Recoding variables and transformations       PART 3: Making rigorous conclusions       Thur, Oct 5 The language of models       Tue, Oct 10 No class: Fall break       Thur, Oct 12 Formalizing linear models       Tue, Oct 17 Multiple linear regression       Thur, Oct 19 Model selection        Case study: Model selection for Paris Paintings       Tue, Oct 24 Prediction and model validation        Case study: Model validation for course evals       Thur, Oct 26 Estimation via bootstrapping       Tue, Oct 31 Hypothesis testing via simulation methods       Thur, Nov 2 More simulation based inference       Tue, Nov 7 Inference overview       Thur, Nov 9 Inference for regression and Central Limit Theorem       Tue, Nov 14 CLT based inference        Case study: Inferring from the General Social Survey       PART 4 Looking forward       Thur, Nov 16 Web scraping       Tue, Nov 21 Functions and automation       Thur, Nov 23 No class: Thanksgiving       Tue, Nov 28 Interactive visualizations with Shiny, Pt 1       Thur, Nov 30 Interactive visualizations with Shiny, Pt 2       Tue, Dec 5 Bayesian inference       Thur, Dec 7 Final project presentations       </description>
-    </item>
-    
-    <item>
-      <title>Policies</title>
-      <link>/policies/</link>
-      <pubDate>Thu, 13 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/policies/</guid>
-      <description>Class: Class time is designed to be as interactive as possible. My role as instructor is to introduce you new tools and techniques, but it is up to you to take them and make use of them. Programming is a skill that is best learned by doing, so as much as possible you will be working on a variety of tasks and activities throughout each class.
-Grading: Your final grade will be comprised of the following:</description>
-    </item>
-    
-    <item>
-      <title>Tools</title>
-      <link>/tools/</link>
+      <title>Installing R/Rstudio</title>
+      <link>/install-rstats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tools/</guid>
-      <description>R/RStudio     GitHub     Slack    R is the statistical programming language we will learn in this class. We will interface with R using RStudio, a fully feautred IDE. Go to https://vm-manage.oit.duke.edu/ to access RStudio and log in with your Net ID.    GitHub is a web-based version control repository and Internet hosting service. We will be using GitHub in this course as a collaboration platform and a course management system (i.</description>
+      <guid>/install-rstats/</guid>
+      <description>These are instructions for downloading and installing R and Rstudio.
+Download R R is the language/environment (the engine).
+ Go to the CRAN (Collective R Archive Network) website: https://cran.r-project.org/ Click on the appropriate operating system (Mac or Windows) to navigate to download page.  Download the most recent version of R. If Mac, select the first .pkg file listed in the &amp;ldquo;files&amp;rdquo; section (e.g., R-3.4.3.pkg). If Windows, select &amp;ldquo;base&amp;rdquo; (it&amp;rsquo;s the same link as the bolded message about &amp;lsquo;installing R for the first time&amp;rsquo;).</description>
+    </item>
+    
+    <item>
+      <title>Readings</title>
+      <link>/reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/reading/</guid>
+      <description>1: Quantitative research Research design  Fox Ch. 1: Statistical models and social science, 1-11 Babbie Ch. 4: Research design, 90-123 Babbie Ch. 5: Conceptualization, operationalization, and measurement, 124-159 Hayes Ch. 1: Statistics and communication science, 1-15 Hayes Ch. 2: Fundamentals of measurement, 16-30   2. Descriptive statistics Descriptives  Carey Ch. 3: Measurement and Transformations Carey Ch. 4: Descriptive Statistics &amp;amp; Terminology Fox Ch. 3: Examining data, 28-54 Fox Ch.</description>
+    </item>
+    
+    <item>
+      <title>Schedule</title>
+      <link>/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/schedule/</guid>
+      <description>Schedule Note: Schedule subject to change at instructor&#39;s discretion.  Date Lesson Reading Assign. Slides Exam   2018-08-21 Quantitative research       2018-08-28 Descriptive statistics       2018-09-04 Hypothesis tests and group comparisons       2018-09-11 Correlations and factor analysis       2018-09-18 Data wrangling       2018-09-25 Exam 1       2018-10-02 Linear model - regression       2018-10-09 Linear model - ANOVA       2018-10-16 Linear model - diagnostics       2018-10-23 Generalized linear models       2018-10-30 Longitudinal models       2018-11-06 Text mining       2018-11-13 NO CLASS       2018-11-27 Data science       2018-12-04 Exam 2       </description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>/syllabus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/syllabus/</guid>
+      <description>Course  JOURN 8016: Adv Quant     Tue 3:30 - 6:00pm Lee Hills Hall 214   Instructor  Dr. Michael W. Kearney      Thu 11am - 2:00pm Lee Hills Hall 314   Texts  R for Data Science     O&#39;Reilly Media Wickham &amp; Grolemund   Applied Regression Analysis &amp; Generalized Linear Models (3rd ed.)    CRC Press Hadley Wickham   Course description This course provides an introduction to statistical methods used in journalism/media-related social science research–analytical techniques include simple group comparisons, correlations, factor analysis, and linear models–and previews of several advanced statistical models and tools from data science.</description>
+    </item>
+    
+    <item>
+      <title>Tick marks, variable names, and ggplot2</title>
+      <link>/summarize-names-problems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/summarize-names-problems/</guid>
+      <description>This tutorial identifies three common mistakes users make when attempting to map variables from dplyr::summarize() to aesthetic dimensions of a plot with ggplot2. It concludes by describing the solution to these common mistakes.
+Packages/styles To complete this tutorial, you will need to load the tidyverse set of packages and define a couple stylistic functions used throughout to make the #dataviz a little prettier.
+## load tidyverse library(tidyverse) #&amp;gt; ── Attaching packages ─────────────────────────────────────────────────────────── tidyverse 1.</description>
     </item>
     
   </channel>

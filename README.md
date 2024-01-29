@@ -1,15 +1,24 @@
-# sta112fs-f17
 
-Source code for course website for STA 112FS at Duke University, Fall 2017.
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
-Course website is at http://www2.stat.duke.edu/courses/Fall17/sta112.01/.
+# stat.mikewk.com <img src="static/favicon.png" width="180px" align="right" />
 
-# Attribution
+> Course website for **JOURN 8016: Advanced Quantitative Research
+> Methods**, a Fall 2018 graduate course in the School of Journalism at
+> the University of Missouri
 
-- This website design is based on [ESPM-157 by Carl Boettinger](https://espm-157.carlboettiger.info/).
-- Background image is [here](https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAkrAAAAJDI5MmUxNzNiLWNmYjAtNDFiOC04YWRiLTQ2YjhiZGExNzY0Mw.jpg).
+The live course website can be found at
+[stat.mikewk.com](https://stat.mikewk.com). For the source code used to
+make the site, see
+[github.com/mkearney/stat](https://github.com/mkearney/stat/).
 
-# Notes for building the website:
+## Attribution
 
-- Colors: Pantone Fall 2017 - Marina - #5388CD
-  - To change, search & replace in `themes/material/static/css/material-kit.css`
+This website design was forked from [Sta112-F17 by Mine
+Cetinkaya-Rundel](https://github.com/Sta112-F17/website/commits?author=mine-cetinkaya-rundel),
+which is based on [ESPM-157 by Carl
+Boettinger](https://espm-157.carlboettiger.info/).
+
+Background image created by [Muge
+Cetinkaya](https://dribbble.com/muuuuge). See the original image
+[here](http://www2.stat.duke.edu/courses/Spring18/Sta199/img/mugesketch.png).
