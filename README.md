@@ -3,7 +3,7 @@
 
 # stat.mikewk.com <img src="static/favicon.png" width="180px" align="right" />
 
-> Course website for **JOURN 8016: Advanced Quantitative Research
+> Course website for **A7214: Advanced Quantitative Research
 > Methods**, a Fall 2018 graduate course in the School of Journalism at
 > the University of Missouri
 
